@@ -1,26 +1,14 @@
-# import logging
-# import threading
-# import subprocess
-# import multiprocessing
-
-from utils import YandexWeatherAPI, CITIES
-from tasks import (
-    DataFetchingTask,
-    DataCalculationTask,
-    DataAggregationTask,
-    DataAnalyzingTask,
-)
+from utils import CITIES
+from tasks import DataAnalyzingTask
 
 
-def forecast_weather():
+def forecast_weather(city):
     """
     Анализ погодных условий по городам
     """
-    # city_name = "MOSCOW"
-    # ywAPI = YandexWeatherAPI()
-    # resp = ywAPI.get_forecasting(city_name)
-    pass
+    start = DataAnalyzingTask()
+    start.analyse(city)
 
 
 if __name__ == "__main__":
-    forecast_weather()
+    forecast_weather(CITIES)

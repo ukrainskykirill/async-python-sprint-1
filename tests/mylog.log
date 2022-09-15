@@ -1,0 +1,26 @@
+WARNING:root:Please! Check your internet connection! Error type object 'DataFetchingTask' has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Please! Check your internet connection! Error 'DataFetchingTest' object has no attribute 'yapi'
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+WARNING:root:Function got the wrong type! Error 'int' object is not iterable
+ERROR:root:<urlopen error [Errno 8] nodename nor servname provided, or not known>

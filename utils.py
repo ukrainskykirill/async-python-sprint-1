@@ -9,6 +9,30 @@ else:
 
 logger = logging.getLogger()
 
+CLOUDLY = [
+    'drizzle', 'light-rain', 'rain', 'moderate-rain', 'heavy-rain',
+    'continuous-heavy-rain', 'showers', 'wet-snow', 'light-snow', 'snow',
+    'snow-showers', 'hail', 'thunderstorm', 'thunderstorm-with-rain'
+]
+
+RU_CITIES = {
+    'Moscow': 'Москва',
+    'Étréchy': 'Париж',
+    'London': 'Лондон',
+    'Teltow-Fläming': 'Берлин',
+    'Baoding District': 'Пекин',
+    'City of Kazan': 'Казань',
+    "Saint Petersburg": 'Санкт-Петербург',
+    "Volgograd": 'Волгоград',
+    "Novosibirsk": 'Новосибирск',
+    "Kaliningrad": 'Калининград',
+    'Abu Dhabi': 'Абу-Даби',
+    'Powiat Warszawa': 'Варшава',
+    'Bucharest': 'Бухарест',
+    'Rome': 'Рим',
+    'Cairo': 'Каир',
+}
+
 CITIES = {
     "MOSCOW": "https://code.s3.yandex.net/async-module/moscow-response.json",
     "PARIS": "https://code.s3.yandex.net/async-module/paris-response.json",

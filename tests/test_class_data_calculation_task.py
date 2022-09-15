@@ -60,7 +60,3 @@ class TestDataCalculationTask:
         data = self.df.get_data(city)
         for d in data:
             assert self.dc.calculation(d) == result
-
-    # def test_get_from_q(self):
-    #     with pytest.raises(Empty):
-    #         self.da.get_from_q(city)

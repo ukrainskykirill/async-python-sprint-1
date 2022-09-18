@@ -1,5 +1,5 @@
 import openpyxl
-from tasks import DataAggregationTask, DataCalculationTask
+from tasks import DataAggregationTask
 
 CITIES = {
     "LONDON": "https://code.s3.yandex.net/async-module/london-response.json",
@@ -18,7 +18,7 @@ result = [{'city': 'London',
                                   '2022-05-28': 11,
                                   '2022-05-29': 0,
                                   '2022-05-30': None},
-                    'raiting': 2,
+                    'rating': 2,
                     't': 16.09}},
           {'city': 'Teltow-Fläming',
            'data': {'avr_t': {'2022-05-26': 19.27,
@@ -32,20 +32,16 @@ result = [{'city': 'London',
                                   '2022-05-28': 0,
                                   '2022-05-29': 0,
                                   '2022-05-30': None},
-                    'raiting': 1,
+                    'rating': 1,
                     't': 16.3}}]
 
 
 class TestDataAggregationTask:
-    def setup(self):
-        self.dc = DataCalculationTask()
+    def setup(self) -> None:
         self.da = DataAggregationTask()
 
-    def test_get_from_q(self):
-        assert self.da.get_from_q(CITIES) == result
-
-    def test_title(self):
-        self.da.title(CITIES2)
+    def test_title(self) -> None:
+        self.da.title(result)
         book = openpyxl.open('forecast_test.xlsx', read_only=True)
         sheet = book.active
         first_table = []
